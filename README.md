@@ -1,6 +1,6 @@
 # CCLab. 홈페이지 제작
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
 
 ## 제작 기간
 
