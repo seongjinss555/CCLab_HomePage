@@ -19,7 +19,7 @@
 
 • API
 
-web3froms
+web3forms
 
 • Library
 
