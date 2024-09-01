@@ -1,0 +1,109 @@
+@font-face {
+  font-family: "goorm-sans-bold";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/2408@1.0/goorm-sans-bold.woff2")
+    format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+.professor_container {
+  margin: 20px auto;
+  max-width: 100%;
+  padding: 20px 20px 20px 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: white;
+  margin: 0 150px 0 150px;
+}
+
+.container_wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.professor {
+  font-family: "goorm-sans-bold";
+  text-align: left;
+  margin-left: -40px;
+  color: #333;
+}
+
+.professor li {
+  list-style-type: none;
+  margin: 10px 0;
+  color: #666;
+}
+
+.professor a {
+  color: grey;
+  text-decoration: none;
+}
+
+.professor a:hover {
+  color: #007bff;
+}
+
+.pf_info {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.pf_img {
+  flex: 1;
+  max-width: 100%;
+  margin-right: 20px;
+}
+
+.pf_img img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.pf_details {
+  flex: 4;
+}
+
+.pf_text {
+  line-height: 1.5;
+  text-align: left;
+}
+
+.name h1 {
+  font-size: 24px;
+  margin: 0;
+  color: black;
+  text-align: left;
+}
+
+.name h2 {
+  font-size: 20px;
+  margin: 10px 0 15px 0;
+  color: #555;
+}
+
+.pf_email {
+  font-family: "goorm-sans-bold";
+  margin-top: 35px;
+  font-size: 20px;
+}
+
+.pf_email dl {
+  margin: 5px 0;
+}
+
+.pf_email dt {
+  font-weight: bold;
+  color: #333;
+}
+
+.pf_email a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.pf_email dt:hover {
+  text-decoration: none;
+}

@@ -1,0 +1,176 @@
+@font-face {
+  font-family: "goorm-sans-bold";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/2408@1.0/goorm-sans-bold.woff2")
+    format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+.title_text {
+  background-size: cover;
+  position: relative;
+  width: 100%;
+}
+
+.title_text .comment_title {
+  position: absolute;
+  top: 250px;
+  left: 50%;
+  font-size: 55px;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  padding-top: 40px;
+  color: white;
+  z-index: 2; /*이미지 위에 글자가 오도록 세팅*/
+}
+
+.about_us {
+  font-family: "goorm-sans-bold";
+}
+
+.img {
+  opacity: 0;
+  animation: fadeIn 2s forwards;
+  position: relative;
+  z-index: 0; /*이미지를 밑으로 세팅*/
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.about_us .img {
+  width: 100%;
+  height: 500px;
+  overflow: hidden; /* 이미지가 p 태그 밖으로 나가지 않도록 설정 */
+  position: relative; /* 자식 요소의 절대 위치 지정을 위해 설정 */
+  margin: 0 auto; /*중앙정렬*/
+}
+
+.about_us .img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* 비율 유지하며 잘라내기 */
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.about_us_col {
+  opacity: 0;
+  animation: fadeIn 3s forwards;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.about_us_col h3 {
+  margin-bottom: 15px;
+  font-size: 24px;
+  color: #333;
+}
+
+.about_us_col p {
+  margin-bottom: 10px;
+  line-height: 1.6; /* 줄 간격 */
+  color: #555;
+}
+
+.about_us_col ul {
+  list-style: none;
+  padding: 0;
+}
+
+.about_us_col .about_things {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #333;
+}
+
+.about_concern a {
+  margin-left: -2px;
+  color: #333;
+  text-decoration: none;
+}
+
+.about_concern a {
+  color: #333;
+  text-decoration: none;
+}
+
+.about_us_col .about_register a {
+  color: #333;
+  text-decoration: none;
+}
+
+.about_us_col .about_register a:hover {
+  color: #007bff;
+}
+
+.contact-form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #007bff;
+  outline: none; /*기본 아웃라인 제거*/
+}
+
+.contact-form .btn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-size: 24px;
+}
+
+.contact-form .btn:hover {
+  background-color: #0056b3;
+}
+
+.contact-form span {
+  display: block;
+  margin: 20px 0px 0px;
+}

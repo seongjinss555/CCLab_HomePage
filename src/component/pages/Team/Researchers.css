@@ -1,0 +1,97 @@
+@font-face {
+  font-family: "goorm-sans-bold";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/2408@1.0/goorm-sans-bold.woff2")
+    format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+.researchers_container {
+  display: flex;
+  max-width: 100%;
+  margin: 20px auto;
+  padding: 20px 20px 20px 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.researchers {
+  font-family: "goorm-sans-bold";
+  text-align: center;
+  color: #333;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.researchers_info {
+  font-family: "goorm-sans-bold";
+  flex-direction: column;
+  align-items: center;
+}
+
+.memberWrap {
+  list-style-type: none;
+  flex-direction: column;
+  padding: 0 20px;
+  margin: 0;
+}
+
+.memberList {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.re_img {
+  margin-right: 20px;
+}
+
+.re_img img {
+  width: 125px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.re_about {
+  justify-content: center;
+  flex-direction: column;
+  display: grid;
+  height: 100%;
+}
+
+.name {
+  margin-bottom: 5px;
+}
+
+.eng {
+  font-weight: bold;
+}
+
+.kor {
+  color: #666;
+}
+
+.details {
+  padding-right: 20px;
+}
+
+.present,
+.projects,
+.paper {
+  margin: 2px 0;
+  color: #555;
+}
+
+.paper a {
+  color: #555;
+  text-decoration: none;
+}
+
+.paper a:hover {
+  color: #007bff;
+}
+
+.paper2 {
+  color: #555;
+  text-indent: 43px;
+}
