@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import "react-calendar/dist/Calendar.css";
 import "./Styled.css";
 import Footer from "../../Footer.js";
 export default function Comments() {
