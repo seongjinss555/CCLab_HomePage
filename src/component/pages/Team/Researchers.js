@@ -158,7 +158,7 @@ function Researchers() {
                   </div>
                   <div className="details">
                     <li className="present">의료IT공학과 3학년</li>
-                    <li className="projects">주요 관심분야: </li>
+                    <li className="projects">주요 관심분야: 웹 개발</li>
                     <li className="paper">
                       논문 : 개인정보 보호를 위한 위치정보 마스킹 시스템
                     </li>
