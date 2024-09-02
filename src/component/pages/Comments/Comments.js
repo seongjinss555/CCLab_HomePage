@@ -11,7 +11,7 @@ export default function Comments() {
 
     formData.append(
       "access_key",
-      "5027e96f-22c2-4539-8ca8-7142003923da"
+      "898f564e-ac9d-4ce6-86e2-271e02a9779e"
     ); /* append 메서드를 통해 formData 객체에 새로운 필드 추가*/
 
     const response = await fetch("https://api.web3forms.com/submit", {
@@ -50,12 +50,12 @@ export default function Comments() {
             <li className="about_things">📞 041-530-1690</li>
             <li className="about_things">🏢 의료과학관 1511</li>
             <dd className="about_concern">
-              📌 개인 상담이 필요할 시 I-Design 홈페이지를 통해 예약하고 오시길
-              바랍니다.
+              📌 개인 대면 상담이 필요할 시 I-Design 홈페이지를 통해 예약하고
+              오시길 바랍니다.
             </dd>
             <dd className="about_register">
               <a href="https://id.sch.ac.kr/Career/Counsel/CounselProfessor.aspx">
-                {`👉 신청하러가기`}
+                {`👉 예약하러가기`}
               </a>
             </dd>
           </ul>
