@@ -49,7 +49,7 @@ function Researchers() {
                   </div>
                   <div className="details">
                     <li className="present">의료IT공학과 4학년</li>
-                    <li className="projects">주요 관심분야: </li>
+                    <li className="projects">주요 관심분야: IoT, 인공지능</li>
                     <li className="paper">
                       논문 : 다중 센서 기반 노인 활동 모니터링 시스템
                     </li>
