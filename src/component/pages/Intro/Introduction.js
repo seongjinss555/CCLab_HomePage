@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Introduction.css";
 import PaperComponent from "./PaperComponent.js";
 import Slider from "react-slick";
@@ -7,6 +7,10 @@ import "slick-carousel/slick/slick-theme.css";
 import Footer from "../../Footer.js";
 
 export default function Introduction() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }); /*페이지 이동 시 위로 고정*/
+
   //슬라이더 설정
   const settings = {
     dots: false,

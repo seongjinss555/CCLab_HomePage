@@ -1,9 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 import NewsComponent from "./NewsComponent";
 import "./News.css";
 import Footer from "../../Footer.js";
 
 function News() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }); /*페이지 이동 시 위로 고정*/
+
   return (
     <div className="news">
       <h1 className="news_title">연구실 성과</h1>

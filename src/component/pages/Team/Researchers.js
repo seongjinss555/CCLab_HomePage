@@ -1,7 +1,11 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Researchers.css";
 import Footer from "../../Footer.js";
 function Researchers() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }); /*페이지 이동 시 위로 고정*/
+
   return (
     <div>
       <h1 className="researchers">학부생 연구원</h1>

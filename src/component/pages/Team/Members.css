@@ -107,3 +107,15 @@
 .pf_email dt:hover {
   text-decoration: none;
 }
+
+@media screen and (max-width: 1200px) {
+  .pf_img img {
+    max-width: 150%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .pf_img img {
+    max-width: 150%;
+  }
+}

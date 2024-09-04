@@ -1,8 +1,12 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./Styled.css";
 import Footer from "../../Footer.js";
 export default function Comments() {
   const [result, setResult] = React.useState("");
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  });
 
   const onSubmit = async (event) => {
     event.preventDefault(); /*기본 폼 제출 방지*/

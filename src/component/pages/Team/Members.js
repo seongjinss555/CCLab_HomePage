@@ -1,8 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Members.css";
 import Professor from "./Professor.js";
 import Footer from "../../Footer.js";
 export default function Members() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }); /*페이지 이동 시 위로 고정*/
+
   return (
     <div>
       <div className="professor_container">
