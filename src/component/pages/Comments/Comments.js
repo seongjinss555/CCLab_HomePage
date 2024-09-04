@@ -6,11 +6,11 @@ export default function Comments() {
 
   useEffect(() => {
     window.scrollTo(0, 0);
-  });
+  }); /*페이지 이동 시 위로 고정*/
 
   const onSubmit = async (event) => {
     event.preventDefault(); /*기본 폼 제출 방지*/
-    setResult("Sending....");
+    setResult("보내는 중....");
     const formData = new FormData(event.target);
 
     formData.append(
