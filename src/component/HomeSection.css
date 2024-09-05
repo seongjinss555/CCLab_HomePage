@@ -39,3 +39,16 @@
   transform: scale(1.1);
   transition: transform 1.2s ease-in-out;
 }
+
+@media (max-width: 768px) {
+  .image-container > h1 {
+    top: 70%; /* 화면 중앙에 위치 */
+    transform: translate(-50%, -50%); /* 수직 중앙 정렬 */
+    font-size: 24px; /* 작은 화면에서 글자 크기 조정 */
+  }
+
+  .image-container > button {
+    top: calc(70% + 40px); /* h1 바로 아래에 위치하도록 조정 */
+    font-size: 18px; /* 작은 화면에서 버튼 크기 조정 */
+  }
+}
