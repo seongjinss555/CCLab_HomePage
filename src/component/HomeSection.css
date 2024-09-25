@@ -40,7 +40,21 @@
   transition: transform 1.2s ease-in-out;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1475px) {
+  .image-container > h1 {
+    top: 58%;
+    transform: translate(-50%, -50%);
+    font-size: 28px;
+  }
+
+  .image-container > button {
+    position: relative;
+    top: -600px;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 1055px) {
   .image-container > h1 {
     top: 70%;
     transform: translate(-50%, -50%);

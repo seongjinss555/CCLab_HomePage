@@ -114,8 +114,9 @@
   }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 750px) {
   .pf_img img {
-    max-width: 150%;
+    max-width: 200%;
+    height: auto;
   }
 }
