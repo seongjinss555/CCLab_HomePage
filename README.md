@@ -23,6 +23,6 @@ web3forms
 
 • Library
 
-react-slick, styled-component, typewriter-effect
+react-slick, typewriter-effect
 
 
