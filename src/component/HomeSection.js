@@ -45,7 +45,7 @@ function HomeSection() {
       <TypewriterBox>
         <TypewriterComponent
           options={{
-            strings: ["컴퓨터 네트워크 연구실에 오신 걸 환영합니다!"],
+            strings: ["Welcome to CCLab!"],
             autoStart: true,
             loop: true,
             delay: 65,
