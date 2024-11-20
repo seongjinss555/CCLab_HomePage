@@ -8,14 +8,20 @@ export default function Comments() {
     window.scrollTo(0, 0);
   }, []); /*페이지 이동 시 위로 고정*/
 
+  useEffect(() => {
+    console.log("API Key:", process.env.REACT_APP_API_KEY);
+  });
+
   const onSubmit = async (event) => {
     event.preventDefault(); /*기본 폼 제출 방지*/
     setResult("보내는 중....");
     const formData = new FormData(event.target);
 
+    const apiKey = process.env.REACT_APP_API_KEY;
+
     formData.append(
       "access_key",
-      process.env.REACT_APP_API_KEY
+      apiKey
     ); /* append 메서드를 통해 formData 객체에 새로운 필드 추가*/
 
     const response = await fetch("https://api.web3forms.com/submit", {
