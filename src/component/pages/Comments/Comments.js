@@ -15,7 +15,7 @@ export default function Comments() {
 
     formData.append(
       "access_key",
-      process.env.REACT_APP_API_KEY
+      "process.env.REACT_APP_API_KEY"
     ); /* append 메서드를 통해 formData 객체에 새로운 필드 추가*/
 
     const response = await fetch("https://api.web3forms.com/submit", {
