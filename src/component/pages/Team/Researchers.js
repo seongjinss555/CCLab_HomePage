@@ -114,9 +114,7 @@ function Researchers() {
                     <li className="projects">
                       주요 관심분야: 웹 개발 & 인공지능
                     </li>
-                    <li className="paper">
-                      논문 : 개인정보 보호를 위한 위치정보 마스킹 시스템
-                    </li>
+                    <li className="paper"></li>
                   </div>
                 </div>
               </li>
