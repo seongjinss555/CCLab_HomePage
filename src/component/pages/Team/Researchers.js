@@ -110,7 +110,7 @@ function Researchers() {
                     <p className="kor">김진환</p>
                   </div>
                   <div className="details">
-                    <li className="present">의료IT공학과 4학년</li>
+                    <li className="present">의료IT공학과 3학년</li>
                     <li className="projects">
                       주요 관심분야: 웹 개발 & 인공지능
                     </li>
